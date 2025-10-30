@@ -1,0 +1,248 @@
+@import url("fonts.css");
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    width: 1440px;
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 192px;
+    background-color: #FFEFEF;
+    font-family: "Fantasque";
+}
+
+    .main__img-rome1 {
+        margin-bottom: 60px;
+    }
+
+    .main__big-watch {
+        margin: 0 auto;
+        width: 1365px;
+        height: 1318px;
+        position: relative;
+        margin-bottom: 192px;
+        box-sizing: border-box;
+        padding-top: 466px;
+    }
+        .main__image__big_watch {
+            position: absolute;
+            left: 50;
+            transform: translate(-50%);
+            top: 0;
+        }
+        .main__big-p1 {
+            font-weight: 400;
+            font-size: 60px;
+            margin-bottom: 32px;
+        }
+        .main__big-p2 {
+            font-weight: 700;
+            font-size: 78px;
+            margin-top: -15px;
+            margin-bottom: 62px;
+        }
+        .main__big-p3 {
+            width: 410px;
+            margin: 0 auto;
+            font-weight: 400;
+            font-size: 60px;
+        }
+        .main__title1 {
+            font-weight: 700;
+            font-size: 138px;
+        }
+
+    .main__four-fonts {
+        position: relative;
+        width: 1440px;
+        height: 99px;
+        text-align: center;
+    }
+        .main__image-arrow1 {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .main__image-arrow2 {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);       
+        }
+
+        .main__title2 {
+            width: 710px;
+            margin: 0 auto;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 94px;
+            line-height: 99px;
+            letter-spacing: 10px;
+        }
+
+    .main__four-fonts_images {
+        display: flex;
+        gap: 70px;
+        width: 1365px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+        .main__four-fonts_img1 {
+            margin-top: 140px;
+        }
+        .main__four-fonts_img2 {
+            margin-top: 230px;
+        }
+        .main__four-fonts_img3 {
+         margin-top: 140px;
+        }
+        .main__four-fonts_img4 {
+            margin-top: 170px;
+        }
+        .main__four-fonts_p {
+            font-weight: 400;
+            font-size: 60px;
+        }
+
+    .main__img-black-wrapper {
+        position: relative;
+        margin-bottom: 180px;
+    }
+        .main__image-arrow3 {
+            position: absolute;
+            left: 0;
+            top: 85px;
+        }
+        .main__image-arrow4 {
+            position: absolute;
+            right: 0;
+            top: 85px;
+        }
+        .main__image-black {
+            margin-bottom: 15px;
+        }
+        .main__black-text {
+            width: 448px;
+            margin: 0 auto;
+            font-weight: 400;
+            font-size: 60px;
+        }
+
+    .main__glyphs {
+        position: relative;
+        width: 1440px;
+        height: 99px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .main__small-watchs {
+        width: 1365px;
+        margin: 0 auto;
+        margin-bottom: 56px;
+    }
+        .main__small-watch {
+            margin-right: 25px;
+        }
+
+    .main__languages {
+        position: relative;
+        width: 1440px;
+        height: 99px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .main__languages-text {
+        width: 1400px;
+        margin: 0 auto;
+        margin-left: 40px;
+        text-align: start;
+    }
+        .main__languages-p {
+            font-weight: 400;
+            font-size: 73px;
+            letter-spacing: 10px;
+        }
+
+.footer {
+    width: 1440px;
+    background-color: #FFEFEF;
+    text-align: center;
+    font-family: "Fantasque";
+}
+    .footer__QR {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1396px;
+        margin: 0 auto;
+        margin-bottom: 200px;
+    }
+        .footer__QR-texts {
+            display: flex;
+            gap: 143px;
+        }
+            .footer__QR-p {
+                font-weight: 700;
+                font-size: 43px;
+                letter-spacing: 4px;
+            }
+            .f__p {
+                width: 190px;
+            }
+            .f__p1 {
+                width: 320px;
+            }
+            .f__p2 {
+                width: 341px;
+            }
+
+    .footer__img-rome {
+        margin-bottom: 50px;
+    }
+    .footer__semicircles {
+        display: flex;
+        gap: 104px;
+        width: 1396px;
+        margin: 0 auto;
+    }
+        .footer__semicircle {
+            position: relative;
+            width: 396px;
+            height: 142px;
+        }
+            .footer__semicircle-img {
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%);
+                z-index: 0;
+            }
+            .footer__s-p {
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%);
+                bottom: 0;                
+                font-weight: 400;
+                font-size: 31px;
+                color: #FFEFEF;
+                z-index: 1;
+            }
+            .s-p {
+                width: 312px;
+            }
+            .footer__logo {
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%);
+                bottom: 0;
+                z-index: 1;
+            }
+
+
