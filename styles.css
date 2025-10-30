@@ -9,6 +9,7 @@
 
 .main {
     width: 1440px;
+    margin: 0 auto;
     text-align: center;
     padding-top: 42px;
     padding-bottom: 192px;
@@ -173,6 +174,7 @@
 
 .footer {
     width: 1440px;
+    margin: 0 auto;
     background-color: #FFEFEF;
     text-align: center;
     font-family: "Fantasque";
